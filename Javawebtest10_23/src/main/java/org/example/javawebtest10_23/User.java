@@ -1,9 +1,30 @@
 package org.example.javawebtest10_23;
 
 public class User {
-    public void setAge(int i) {
+    private String username;
+    private Integer age;
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setUsername(String 张三) {
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

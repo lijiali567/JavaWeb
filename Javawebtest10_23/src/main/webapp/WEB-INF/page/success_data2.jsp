@@ -13,8 +13,8 @@
 <body>
     <h2>问卷调查提交成功</h2>
     <table>
-        <tr><td>年龄：</td>${user.getAge()}</tr>
-        <tr><td>用户名：</td>${user.getUsername()}</tr>
+        <tr><td>年龄：</td><td>${user.getAge()}</td></tr>
+        <tr><td>用户名：</td><td>${user.getUsername()}</td></tr>
     </table>
 
 </body>
